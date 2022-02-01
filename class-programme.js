@@ -154,7 +154,7 @@ const oopss = [
     {
         id: 1,
         title: "CSE 1203 Suhrid Shakhar Sir Class 1 (Class not Found)",
-        link: "https://www.youtube.com/embed/",
+        link: "https://www.youtube.com/embed/2PlLPgd8odY",
     },
     {
         id: 2,
@@ -522,6 +522,8 @@ const ACCBTN01 = document.getElementById('accbtn01');
 const ACCBTN02 = document.getElementById('accbtn02');
 const ACCBTN01classList = document.querySelector('accbtn01classlist');
 const ACCBTN02classList = document.querySelector('accbtn02classlist');
+const VIDEOTITLE = document.getElementById('videotitle');
+
 
 const MAIN01 = document.querySelector('.main01');
 const MAIN02 = document.querySelector('.main02');
@@ -529,10 +531,14 @@ const MAIN02 = document.querySelector('.main02');
 
 
 
-OOP.addEventListener("click", function () {
+OOP.addEventListener("click", function () { //oop at index 01
 
     MAIN01.classList.add("d-none");
     MAIN02.classList.remove("d-none");
+
+    let srcValue = firstyearevensem[1][1][0][1][1]["link"]; 
+    IFRAME.setAttribute("src", srcValue); //console.log(value);
+    
 
 
 })
