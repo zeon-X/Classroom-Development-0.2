@@ -489,10 +489,10 @@ const hum = [
 ////////////////////////////////////////////////////////
 
 const firstyearevensem = [
-    ds,
-    oop,
-    math,
-    hum,
+    ['Data Structure', ds],
+    ['Object Oriented Programming', oop],
+    ['Co-ordinate Geometry and Ordinary Differential Equation', math],
+    ['Economics, Government and Sociology', hum],
 ];
 
 ////////////////////////////////////////////////////////
