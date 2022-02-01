@@ -16,18 +16,18 @@ iframe{
     width: 680px;
 }
 
- /* @media screen and (min-width:990px) and(max-width:1200px) {
+ @media screen and (max-width:1200px) {
     iframe{
-        width :600px;
-        height: auto;
+        width :550px !important;
+        height: 350px !important;
     }
 
- } */
+ }
 
  @media screen and (max-width : 668px) { 
     iframe{
-        height: 200px !important;
-        width: 390Px !important;
+        height: 254px !important;
+        width: 412Px !important;
     }
  }
 
