@@ -1,3 +1,11 @@
+.displayNone{
+    display: none;
+}
+.displayActive{
+    display: block;
+}
+
+
 header{
     width: 100%;
     padding: 10px 0px;
@@ -33,13 +41,13 @@ nav{
   }
 
 /* /section one bg */
-main{
+.main01{
     background-image:url(img/gif/ZCsjru.gif);
 }
 
 
-@media screen and (max-width : 600px) {
-    main{
+@media screen and (max-width : 668px) {
+    .main01{
         background-image: none;
     }
     .text-white{
@@ -98,3 +106,84 @@ footer{
     font-size: 15px;
     color: black;
 }
+
+
+
+/* main 02 */
+
+.main02section{
+    width: 85%;
+
+}
+
+iframe{
+    height: 375px;
+    width: 680px;
+}
+
+ @media screen and (max-width:1200px) {
+    iframe{
+        width :550px !important;
+        height: 350px !important;
+    }
+
+ }
+
+ @media screen and (max-width : 668px) { 
+    iframe{
+        height: 254px !important;
+        width: 412Px !important;
+    }
+ }
+
+
+
+
+/* main  */
+/* section one  */
+.column-h,.class-menu{
+    height: 450px;
+}
+
+.class-menu{
+    overflow-y:scroll;
+    scrollbar-width: thin;
+    
+}
+
+/* /section one bg */
+
+
+@media screen and (max-width : 668px) {
+    
+    .main02{
+        width: 100%;
+        height: auto;
+    }
+
+    iframe{
+        height: auto;
+        width: 100%;
+    }
+    .thecols{
+        padding: 0;
+        margin: 0;
+    }
+    .class-menu{
+        margin-top: 50px;
+        padding: 0px 10px ;
+        border: 0 ;
+    
+    }
+    .column-h{
+        height: auto !important;
+    }
+    
+}
+
+
+/* footer  */
+
+
+
+
