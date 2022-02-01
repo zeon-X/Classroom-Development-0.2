@@ -142,14 +142,182 @@ const dsRT = [
 
 ];
 const ds = [
-    [dsMondol, dsRT]
+    dsMondol, dsRT
 ];
 // data structure array end
 
 
 
 // oop array start
+const oopss = [
+    {
+        id: 1,
+        title: "CSE 1203 Suhrid Shakhar Sir Class 1 (Class not Found)",
+        link: "https://www.youtube.com/embed/",
+    },
+    {
+        id: 2,
+        title: "CSE 1203 Suhrid Shakhar Sir Class 2",
+        link: "https://www.youtube.com/embed/2PlLPgd8odY",
+    },
+    {
+        id: 3,
+        title: "CSE 1203 Suhrid Shakhar Sir Class 3",
+        link: "https://www.youtube.com/embed/8Hr1WzEwO44",
+    },
+    {
+        id: 4,
+        title: "CSE 1204 Lab Suhrid Shakhar Sir Class 4",
+        link: "https://www.youtube.com/embed/A9w1wPrvFZ8",
+    },
+    {
+        id: 5,
+        title: "CSE 1204 Lab Suhrid Shakhar Sir Class 5",
+        link: "https://www.youtube.com/embed/PLwz7756gEo",
+    },
+    {
+        id: 6,
+        title: "CSE 1204 Lab Suhrid Shakhar Sir Class 6",
+        link: "https://www.youtube.com/embed/kf7MmaP2Whw",
+    },
+    {
+        id: 7,
+        title: "CSE 1203 Suhrid Shakhar Sir Class 7",
+        link: "https://www.youtube.com/embed/SPVmrku5SG8",
+    },
+    {
+        id: 8,
+        title: "CSE 1203 Suhrid Shakhar Sir Class 8",
+        link: "https://www.youtube.com/embed/-Difgrvep18",
+    },
+    {
+        id: 9,
+        title: "CSE 1204 Lab Suhrid Shakhar Sir Class 9",
+        link: "https://www.youtube.com/embed/jNXFproZKdM",
+    },
+    {
+        id: 10,
+        title: "CSE 1203 Suhrid Shakhar Sir Class 10",
+        link: "https://www.youtube.com/embed/R68FRkDo-cU",
+    },
+    {
+        id: 11,
+        title: "CSE 1203 Suhrid Shakhar Sir Class 11",
+        link: "https://www.youtube.com/embed/kapk0gXl_jc",
+    },
 
+];
+const oopas = [
+    {
+        id: 1,
+        title: "CSE 1204 Lab Asif Sir Class 1",
+        link: "https://www.youtube.com/embed/MFDaUVTGuCA",
+    },
+    {
+        id: 2,
+        title: "CSE 1203 Asif Sir Class 2",
+        link: "https://www.youtube.com/embed/d3MErKrxJ8c",
+    },
+    {
+        id: 3,
+        title: "CSE 1203 Asif Sir Class 3",
+        link: "https://www.youtube.com/embed/DyE3kA7L2Ok",
+    },
+    {
+        id: 4,
+        title: "CSE 1204 Lab Asif Sir Class 4",
+        link: "https://www.youtube.com/embed/lQA0sipjeEI",
+    },
+    {
+        id: 5,
+        title: "CSE 1204 Lab Asif Sir Class 5",
+        link: "https://www.youtube.com/embed/_2xn3iNKqDY",
+    },
+    {
+        id: 6,
+        title: "CSE 1203 Asif Sir Class 6",
+        link: "https://www.youtube.com/embed/89Cte8TDQas",
+    },
+    {
+        id: 7,
+        title: "CSE 1204 Lab Asif Sir Class 7",
+        link: "https://www.youtube.com/embed/nhu6j2x1WH8",
+    },
+    {
+        id: 8,
+        title: "CSE 1203 Asif Sir Class 8",
+        link: "https://www.youtube.com/embed/g0CvveLPrCY",
+    },
+    {
+        id: 9,
+        title: "CSE 1203 Asif Sir Class 9",
+        link: "https://www.youtube.com/embed/2elDdSb3eB0",
+    },
+    {
+        id: 10,
+        title: "CSE 1204 Lab Asif Sir Class 10",
+        link: "https://www.youtube.com/embed/1G6KPzaNjAE",
+    },
+    {
+        id: 11,
+        title: "CSE 1203 Asif Sir Class 11",
+        link: "https://www.youtube.com/embed/BZWPzxTFjFY",
+    },
+    {
+        id: 12,
+        title: "CSE 1203 Asif Sir Class 12",
+        link: "https://www.youtube.com/embed/O9PcTiSuUrI",
+    },
+    {
+        id: 13,
+        title: "CSE 1203 Asif Sir Class 13",
+        link: "https://www.youtube.com/embed/bK-JhEuclcA",
+    },
+    {
+        id: 14,
+        title: "CSE 1203 Asif Sir Class 14",
+        link: "https://www.youtube.com/embed/4VzDlv7AyKA",
+    },
+    {
+        id: 15,
+        title: "CSE 1204 Lab Asif Sir Class 15",
+        link: "https://www.youtube.com/embed/Hqm95XkjGqA",
+    },
+    {
+        id: 16,
+        title: "CSE 1204 Lab Asif Sir Class 16",
+        link: "https://www.youtube.com/embed/nFSKgBE7J04",
+    },
+    {
+        id: 17,
+        title: "CSE 1203 Asif Sir Class 17",
+        link: "https://www.youtube.com/embed/Des8GhND7wI",
+    },
+    {
+        id: 18,
+        title: "CSE 1203 Asif Sir Class 18",
+        link: "https://www.youtube.com/embed/vYRKW7R8_Tc",
+    },
+    {
+        id: 19,
+        title: "CSE 1203 Asif Sir Class 19",
+        link: "https://www.youtube.com/embed/WsyBngAJn8U",
+    },
+    {
+        id: 20,
+        title: "CSE 1203 Asif Sir Class 20",
+        link: "https://www.youtube.com/embed/sjSdQKd4RtI",
+    },
+    {
+        id: 21,
+        title: "CSE 1203 Asif Sir Class 21",
+        link: "https://www.youtube.com/embed/-7NNl2JQQeg",
+    },
+
+];
+const oop = [
+    oopss, oopas
+]
 // oop array end
 
 
