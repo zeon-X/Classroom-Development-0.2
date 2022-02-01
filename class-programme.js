@@ -142,7 +142,8 @@ const dsRT = [
 
 ];
 const ds = [
-    dsMondol, dsRT
+    ['Mondol Sir Classes', dsMondol],
+    ['Rizwan Sir Classes', dsRT]
 ];
 // data structure array end
 
@@ -316,17 +317,168 @@ const oopas = [
 
 ];
 const oop = [
-    oopss, oopas
+    ['Suhrid Sir Classes', oopss],
+    ['Asif Sir Classes', oopas]
 ]
 // oop array end
 
 
 // Mathematics array start
+const mathss = [
+    {
+        id: 1,
+        title: "Math Saifur Sir Class 1",
+        link: "https://www.youtube.com/embed/0ufEzkfHgyU",
+    },
+    {
+        id: 2,
+        title: "Math Saifur Sir Class 2",
+        link: "https://www.youtube.com/embed/gftCWdh1Tlg",
+    },
+    {
+        id: 3,
+        title: "Math Saifur Sir Class 3",
+        link: "https://www.youtube.com/embed/ZYIG9TSAHKY",
+    },
+    {
+        id: 4,
+        title: "Math Saifur Sir Class 4",
+        link: "https://www.youtube.com/embed/iOSEDe93T-Y",
+    },
+    {
+        id: 5,
+        title: "Math Saifur Sir Class 5",
+        link: "https://www.youtube.com/embed/uIUhw5EX-gg",
+    },
+    {
+        id: 6,
+        title: "Math Saifur Sir Class 6",
+        link: "https://www.youtube.com/embed/ZcuXwW-euRg",
+    },
+    {
+        id: 7,
+        title: "Math Saifur Sir Class 7",
+        link: "https://www.youtube.com/embed/q-JdFsrp4a4",
+    },
+    {
+        id: 8,
+        title: "Math Saifur Sir Class 8",
+        link: "https://www.youtube.com/embed/OiRqVPqnchc",
+    },
+    {
+        id: 9,
+        title: "Math Saifur Sir Class 9",
+        link: "https://www.youtube.com/embed/aaRLJeux7QY",
+    },
+    {
+        id: 10,
+        title: "Math Saifur Sir Class 10",
+        link: "https://www.youtube.com/embed/fownZ2pQTuk",
+    },
+    {
+        id: 11,
+        title: "Math Saifur Sir Class 11",
+        link: "https://www.youtube.com/embed/XqS92FQHAyw",
+    },
+
+];
+const mathtm = [
+    {
+        id: 1,
+        title: "Math Tamanna Mam Class 1",
+        link: "https://www.youtube.com/embed/0p6D4IZett8",
+    },
+    {
+        id: 2,
+        title: "Math Tamanna Mam Class 2",
+        link: "https://www.youtube.com/embed/JD70v3K0MxQ",
+    },
+    {
+        id: 3,
+        title: "Math Tamanna Mam Class 3",
+        link: "https://www.youtube.com/embed/Kwlf-T0iL0o",
+    },
+    {
+        id: 4,
+        title: "Math Tamanna Mam Class 4",
+        link: "https://www.youtube.com/embed/wzeRXI_YeBA",
+    },
+    {
+        id: 5,
+        title: "Math Tamanna Mam Class 5",
+        link: "https://www.youtube.com/embed/vx1AfdjY9Ig",
+    },
+    {
+        id: 6,
+        title: "Math Tamanna Mam Class 6",
+        link: "https://www.youtube.com/embed/Y2dHY4j0nPY",
+    },
+    {
+        id: 7,
+        title: "Math Tamanna Mam Class 7",
+        link: "https://www.youtube.com/embed/K6bYYy5s-Hw",
+    },
+
+];
+const math = [
+    ['Saifur Sir Classes', mathss],
+    ['Tamanna Mam Classes', mathtm],
+]
 // Mathematics array end
 
 
-// eco array start
-// eco array end
+// hum array start
+const humtm = [
+    {
+        id: 1,
+        title: "Hum Tahmina Mam Class 1",
+        link: "https://www.youtube.com/embed/_WgkhzJVXMA",
+    },
+    {
+        id: 2,
+        title: "Hum Tahmina Mam Class 2",
+        link: "https://www.youtube.com/embed/-9Ubdwhmutc",
+    },
+    {
+        id: 3,
+        title: "Hum Tahmina Mam Class 3",
+        link: "https://www.youtube.com/embed/WvGjeuAPQTk",
+    },
+    {
+        id: 4,
+        title: "Hum Tahmina Mam Class 4",
+        link: "https://www.youtube.com/embed/szkmrEMsDEU",
+    },
+    {
+        id: 5,
+        title: "Hum Tahmina Mam Class 5",
+        link: "https://www.youtube.com/embed/ZER0bmhum4A",
+    },
+    {
+        id: 6,
+        title: "Hum Tahmina Mam Class 6",
+        link: "https://www.youtube.com/embed/WSnor6k4oHI",
+    },
+    {
+        id: 7,
+        title: "Hum Tahmina Mam Class 7",
+        link: "https://www.youtube.com/embed/r0VO1UetJbw",
+    },
+
+];
+const humgs = [
+    {
+        id: 1,
+        title: "Hum Golam Sir Class 1",
+        link: "https://www.youtube.com/embed/qay3AOosXAQ",
+    },
+
+];
+const hum = [
+    ['Tahmina Mam Classes', humtm],
+    ['Golam Sir Classes', humtm],
+]
+// hum array end
 
 // Physics array start
 // Physics array end
@@ -334,7 +486,9 @@ const oop = [
 
 const firstyearevensem = [
     ds,
-    oop
+    oop,
+    math,
+    hum,
 ];
 
 console.log(firstyearevensem);
