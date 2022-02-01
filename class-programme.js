@@ -505,21 +505,30 @@ console.log(firstyearevensem);
 
 //getting clicking elements by their id
 //index.html page
-const OOP = getElementById('oop');
-const DS = getElementById('ds');
-const HUM = getElementById('hum');
-const MATH = getElementById('math');
-const PHYSICS = getElementById('physics');
-const SYLLABUS = getElementById('syllabus');
-const NOTICE = getElementById('notice');
-const CNOTABOT = getElementById('cnotabot');
+const OOP = document.getElementById('oop');
+const DS = document.getElementById('ds');
+const HUM = document.getElementById('hum');
+const MATH = document.getElementById('math');
+const PHYSICS = document.getElementById('physics');
+const SYLLABUS = document.getElementById('syllabus');
+const NOTICE = document.getElementById('notice');
+const CNOTABOT = document.getElementById('cnotabot');
 
 //getting clicking elements by their id
 //class-loader.html page
-const IFRAME = getElementById('iframe');
-const COURSENAME = getElementById('coursename');
-const ACCBTN01 = getElementById('accbtn01');
-const ACCBTN02 = getElementById('accbtn02');
-const ACCBTN01classList = getElementById('accbtn01classlist');
-const ACCBTN02classList = getElementById('accbtn02classlist');
+const IFRAME = document.getElementById('iframe');
+const COURSENAME = document.getElementById('coursename');
+const ACCBTN01 = document.getElementById('accbtn01');
+const ACCBTN02 = document.getElementById('accbtn02');
+const ACCBTN01classList = document.querySelector('accbtn01classlist');
+const ACCBTN02classList = document.querySelector('accbtn02classlist');
 
+
+
+
+OOP.addEventListener("click", function () {
+
+    console.log('listening..................');
+
+
+})
