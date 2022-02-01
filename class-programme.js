@@ -500,3 +500,26 @@ const firstyearevensem = [
 ////////////////////////////////////////////////////////
 
 console.log(firstyearevensem);
+
+
+
+//getting clicking elements by their id
+//index.html page
+const OOP = getElementById('oop');
+const DS = getElementById('ds');
+const HUM = getElementById('hum');
+const MATH = getElementById('math');
+const PHYSICS = getElementById('physics');
+const SYLLABUS = getElementById('syllabus');
+const NOTICE = getElementById('notice');
+const CNOTABOT = getElementById('cnotabot');
+
+//getting clicking elements by their id
+//class-loader.html page
+const IFRAME = getElementById('iframe');
+const COURSENAME = getElementById('coursename');
+const ACCBTN01 = getElementById('accbtn01');
+const ACCBTN02 = getElementById('accbtn02');
+const ACCBTN01classList = getElementById('accbtn01classlist');
+const ACCBTN02classList = getElementById('accbtn02classlist');
+
