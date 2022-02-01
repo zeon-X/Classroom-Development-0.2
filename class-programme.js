@@ -523,12 +523,16 @@ const ACCBTN02 = document.getElementById('accbtn02');
 const ACCBTN01classList = document.querySelector('accbtn01classlist');
 const ACCBTN02classList = document.querySelector('accbtn02classlist');
 
+const MAIN01 = document.querySelector('.main01');
+const MAIN02 = document.querySelector('.main02');
+
 
 
 
 OOP.addEventListener("click", function () {
 
-    console.log('listening..................');
+    MAIN01.classList.add("d-none");
+    MAIN02.classList.remove("d-none");
 
 
 })
