@@ -553,7 +553,7 @@ function videoplaylistFUNCTION(arr) {
     let dm1 = [];
     for (let i = 0; i < arr[1][0][1].length; ++i) {
         x = arr[1][0][1][i].title;
-        dm1 += `<a href="" class="videoFromPlaylist  fs-6 ">${x}</a><br>`;
+        dm1 += `<p class="videoFromPlaylist  fs-6 ">${x}</p>`;
     }
     // console.log(dm1);
 
@@ -562,7 +562,7 @@ function videoplaylistFUNCTION(arr) {
     let dm2 = [];
     for (let i = 0; i < arr[1][1][1].length; ++i) {
         x = arr[1][1][1][i].title;
-        dm2 += `<a href="" class="videoFromPlaylist  fs-6 ">${x}</a><br>`;
+        dm2 += `<p class="videoFromPlaylist  fs-6 ">${x}</p>`;
     }
     // console.log(dm2);
     ACCBTN02classList.innerHTML = dm2;
@@ -570,27 +570,38 @@ function videoplaylistFUNCTION(arr) {
 
 
 
-SingleVIDEO.addEventListener("click",function(e){
-    
-});
 
 
-DS.addEventListener("click", function () { //ds at index 01
-    let v = firstyearevensem[0];
-    videoplaylistFUNCTION(v);
+
+
+window.addEventListener("DOMContentLoaded", function () {
+
+    DS.addEventListener("click", function () { //ds at index 01
+        let v = firstyearevensem[0];
+        videoplaylistFUNCTION(v);
+    });
+
+    HUM.addEventListener("click", function () { //ds at index 01
+        let v = firstyearevensem[1];
+        videoplaylistFUNCTION(v);
+    });
+
+    OOP.addEventListener("click", function () { //ds at index 01
+        let v = firstyearevensem[2];
+        videoplaylistFUNCTION(v);
+    });
+
+    MATH.addEventListener("click", function () { //ds at index 01
+        let v = firstyearevensem[3];
+        videoplaylistFUNCTION(v);
+    });
+
+    //event listener
+    SingleVIDEO.addEventListener("click", function () {
+        console.log("hey");
+    });
 });
-HUM.addEventListener("click", function () { //ds at index 01
-    let v = firstyearevensem[1];
-    videoplaylistFUNCTION(v);
-});
-OOP.addEventListener("click", function () { //ds at index 01
-    let v = firstyearevensem[2];
-    videoplaylistFUNCTION(v);
-});
-MATH.addEventListener("click", function () { //ds at index 01
-    let v = firstyearevensem[3];
-    videoplaylistFUNCTION(v);
-});
+
 
 
 
