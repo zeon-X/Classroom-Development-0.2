@@ -153,57 +153,57 @@ const ds = [
 const oopss = [
     {
         id: 1,
-        title: "CSE 1203 Suhrid Shakhar Sir Class 1 (Class not Found)",
-        link: "https://www.youtube.com/embed/2PlLPgd8odY",
+        title: "CSE 1203 Suhrid Sir Class 1 (Class not Found)",
+        link: "https://www.youtube.com/embed/",
     },
     {
         id: 2,
-        title: "CSE 1203 Suhrid Shakhar Sir Class 2",
+        title: "CSE 1203 Suhrid Sir Class 2",
         link: "https://www.youtube.com/embed/2PlLPgd8odY",
     },
     {
         id: 3,
-        title: "CSE 1203 Suhrid Shakhar Sir Class 3",
+        title: "CSE 1203 Suhrid Sir Class 3",
         link: "https://www.youtube.com/embed/8Hr1WzEwO44",
     },
     {
         id: 4,
-        title: "CSE 1204 Lab Suhrid Shakhar Sir Class 4",
+        title: "CSE 1204 Lab Suhrid Sir Class 4",
         link: "https://www.youtube.com/embed/A9w1wPrvFZ8",
     },
     {
         id: 5,
-        title: "CSE 1204 Lab Suhrid Shakhar Sir Class 5",
+        title: "CSE 1204 Lab Suhrid Sir Class 5",
         link: "https://www.youtube.com/embed/PLwz7756gEo",
     },
     {
         id: 6,
-        title: "CSE 1204 Lab Suhrid Shakhar Sir Class 6",
+        title: "CSE 1204 Lab Suhrid Sir Class 6",
         link: "https://www.youtube.com/embed/kf7MmaP2Whw",
     },
     {
         id: 7,
-        title: "CSE 1203 Suhrid Shakhar Sir Class 7",
+        title: "CSE 1203 Suhrid Sir Class 7",
         link: "https://www.youtube.com/embed/SPVmrku5SG8",
     },
     {
         id: 8,
-        title: "CSE 1203 Suhrid Shakhar Sir Class 8",
+        title: "CSE 1203 Suhrid Sir Class 8",
         link: "https://www.youtube.com/embed/-Difgrvep18",
     },
     {
         id: 9,
-        title: "CSE 1204 Lab Suhrid Shakhar Sir Class 9",
+        title: "CSE 1204 Lab Suhrid Sir Class 9",
         link: "https://www.youtube.com/embed/jNXFproZKdM",
     },
     {
         id: 10,
-        title: "CSE 1203 Suhrid Shakhar Sir Class 10",
+        title: "CSE 1203 Suhrid Sir Class 10",
         link: "https://www.youtube.com/embed/R68FRkDo-cU",
     },
     {
         id: 11,
-        title: "CSE 1203 Suhrid Shakhar Sir Class 11",
+        title: "CSE 1203 Suhrid Sir Class 11",
         link: "https://www.youtube.com/embed/kapk0gXl_jc",
     },
 
@@ -327,57 +327,57 @@ const oop = [
 const mathss = [
     {
         id: 1,
-        title: "Math Saifur Sir Class 1",
+        title: "Math Saifur Sir Class 2",
         link: "https://www.youtube.com/embed/0ufEzkfHgyU",
     },
     {
         id: 2,
-        title: "Math Saifur Sir Class 2",
+        title: "Math Saifur Sir Class 3",
         link: "https://www.youtube.com/embed/gftCWdh1Tlg",
     },
     {
         id: 3,
-        title: "Math Saifur Sir Class 3",
+        title: "Math Saifur Sir Class 4",
         link: "https://www.youtube.com/embed/ZYIG9TSAHKY",
     },
     {
         id: 4,
-        title: "Math Saifur Sir Class 4",
+        title: "Math Saifur Sir Class 5",
         link: "https://www.youtube.com/embed/iOSEDe93T-Y",
     },
     {
         id: 5,
-        title: "Math Saifur Sir Class 5",
+        title: "Math Saifur Sir Class 6",
         link: "https://www.youtube.com/embed/uIUhw5EX-gg",
     },
     {
         id: 6,
-        title: "Math Saifur Sir Class 6",
+        title: "Math Saifur Sir Class 7",
         link: "https://www.youtube.com/embed/ZcuXwW-euRg",
     },
     {
         id: 7,
-        title: "Math Saifur Sir Class 7",
+        title: "Math Saifur Sir Class 8",
         link: "https://www.youtube.com/embed/q-JdFsrp4a4",
     },
     {
         id: 8,
-        title: "Math Saifur Sir Class 8",
+        title: "Math Saifur Sir Class 9",
         link: "https://www.youtube.com/embed/OiRqVPqnchc",
     },
     {
         id: 9,
-        title: "Math Saifur Sir Class 9",
+        title: "Math Saifur Sir Class 10",
         link: "https://www.youtube.com/embed/aaRLJeux7QY",
     },
     {
         id: 10,
-        title: "Math Saifur Sir Class 10",
+        title: "Math Saifur Sir Class 11",
         link: "https://www.youtube.com/embed/fownZ2pQTuk",
     },
     {
         id: 11,
-        title: "Math Saifur Sir Class 11",
+        title: "Math Saifur Sir Class 12",
         link: "https://www.youtube.com/embed/XqS92FQHAyw",
     },
 
@@ -490,16 +490,18 @@ const hum = [
 
 const firstyearevensem = [
     ['Data Structure', ds],
+    ['Economics, Government and Sociology', hum],
     ['Object Oriented Programming', oop],
     ['Co-ordinate Geometry and Ordinary Differential Equation', math],
-    ['Economics, Government and Sociology', hum],
+
 ];
 
 ////////////////////////////////////////////////////////
 ///////////// FULL ARRAY END HERE ////////////////////
 ////////////////////////////////////////////////////////
 
-console.log(firstyearevensem);
+// console.log(firstyearevensem);
+
 
 
 
@@ -520,25 +522,75 @@ const IFRAME = document.getElementById('iframe');
 const COURSENAME = document.getElementById('coursename');
 const ACCBTN01 = document.getElementById('accbtn01');
 const ACCBTN02 = document.getElementById('accbtn02');
-const ACCBTN01classList = document.querySelector('accbtn01classlist');
-const ACCBTN02classList = document.querySelector('accbtn02classlist');
+const ACCBTN01classList = document.querySelector('.accbtn01classlist');
+const ACCBTN02classList = document.querySelector('.accbtn02classlist');
+
+// const VIDEOfPlaylist01 = document.querySelector('videoFromPlaylist01');
+// const VIDEOfPlaylist02 = document.querySelector('videoFromPlaylist02');
+
+const SingleVIDEO = document.querySelector('.videoFromPlaylist');
 const VIDEOTITLE = document.getElementById('videotitle');
 
 
 const MAIN01 = document.querySelector('.main01');
 const MAIN02 = document.querySelector('.main02');
 
+function videoplaylistFUNCTION(arr) {
+
+    let x;
+
+    COURSENAME.innerHTML = arr[0];
+
+    ACCBTN01.innerHTML = arr[1][0][0];
+    ACCBTN02.innerHTML = arr[1][1][0];
+
+    let initValue = arr[1][0][1][0]; //
+    IFRAME.setAttribute("src", initValue["link"]);
+    VIDEOTITLE.innerHTML = initValue["title"];
 
 
 
-OOP.addEventListener("click", function () { //oop at index 01
+    let dm1 = [];
+    for (let i = 0; i < arr[1][0][1].length; ++i) {
+        x = arr[1][0][1][i].title;
+        dm1 += `<a href="" class="videoFromPlaylist  fs-6 ">${x}</a><br>`;
+    }
+    // console.log(dm1);
 
-    MAIN01.classList.add("d-none");
-    MAIN02.classList.remove("d-none");
+    ACCBTN01classList.innerHTML = dm1;
 
-    let srcValue = firstyearevensem[1][1][0][1][1]["link"]; 
-    IFRAME.setAttribute("src", srcValue); //console.log(value);
+    let dm2 = [];
+    for (let i = 0; i < arr[1][1][1].length; ++i) {
+        x = arr[1][1][1][i].title;
+        dm2 += `<a href="" class="videoFromPlaylist  fs-6 ">${x}</a><br>`;
+    }
+    // console.log(dm2);
+    ACCBTN02classList.innerHTML = dm2;
+}
+
+
+
+SingleVIDEO.addEventListener("click",function(e){
     
+});
 
 
-})
+DS.addEventListener("click", function () { //ds at index 01
+    let v = firstyearevensem[0];
+    videoplaylistFUNCTION(v);
+});
+HUM.addEventListener("click", function () { //ds at index 01
+    let v = firstyearevensem[1];
+    videoplaylistFUNCTION(v);
+});
+OOP.addEventListener("click", function () { //ds at index 01
+    let v = firstyearevensem[2];
+    videoplaylistFUNCTION(v);
+});
+MATH.addEventListener("click", function () { //ds at index 01
+    let v = firstyearevensem[3];
+    videoplaylistFUNCTION(v);
+});
+
+
+
