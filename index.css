@@ -90,17 +90,10 @@ nav{
 
 
 
-/* footer  */
-.videoFromPlaylist{
-    text-decoration: none;
-    color:rgb(0, 115, 255);
-    
-}
-.videoFromPlaylist:hover{
-    background-color: black;
-    color:green;
-}
 
+
+
+/* footer  */
 footer{
     height:170px;
 }
@@ -115,7 +108,25 @@ footer{
 
 
 
-/* main 02 */
+/*///////////////////////////////////////////////
+ ////////////////////main 02/////////////////////
+ //////////////////////////////////////////////// */
+
+
+.videoFromPlaylist{
+    text-decoration: none;
+    color:rgb(0, 115, 255);
+    padding: 0;
+    
+}
+.videoFromPlaylist:hover{
+    background-color: black;
+    color:green;
+}
+
+
+
+
 
 .main02section{
     width: 85%;
@@ -137,15 +148,15 @@ iframe{
 
  @media screen and (max-width : 668px) { 
     iframe{
-        height: 254px !important;
-        width: 412Px !important;
+        height: 195px !important;
+        width: 390Px !important;
     }
  }
 
 
 
 
-/* main  */
+
 /* section one  */
 .column-h,.class-menu{
     height: 450px;
