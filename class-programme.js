@@ -23,47 +23,47 @@ const dsMondol = [
     },
     {
         id: 5,
-        title: "CSE 1201 DS Mondol Sir Class 5",
+        title: "CSE 1201 DS Mondol Sir Class 5 Part-1",
         link: "https://www.youtube.com/embed/vOtDqAOTUUo",
     },
     {
         id: 6,
+        title: "CSE 1201 DS Mondol Sir Class 5 Part-2",
+        link: "https://www.youtube.com/embed/K_hWn2mOfWc",
+    },
+    {
+        id: 7,
         title: "CSE 1201 DS Mondol Sir Class 6",
         link: "https://www.youtube.com/embed/OkSlWjcOp_I",
     },
     {
-        id: 7,
-        title: "CSE 1201 DS Mondol Sir Class 7",
-        link: "https://www.youtube.com/embed/K_hWn2mOfWc",
-    },
-    {
         id: 8,
-        title: "CSE 1201 DS Mondol Sir Class 8",
+        title: "CSE 1201 DS Mondol Sir Class 7",
         link: "https://www.youtube.com/embed/r_Ezpffj9Dw",
     },
     {
         id: 9,
-        title: "CSE 1201 DS Mondol Sir Class 9",
+        title: "CSE 1201 DS Mondol Sir Class 8",
         link: "https://www.youtube.com/embed/hVu3UcNwGCc",
     },
     {
         id: 10,
-        title: "CSE 1201 DS Mondol Sir Class 10",
+        title: "CSE 1201 DS Mondol Sir Class 9 Part-1",
         link: "https://www.youtube.com/embed/gnMc7dEPxWA",
     },
     {
         id: 11,
-        title: "CSE 1201 DS Mondol Sir Class 11",
+        title: "CSE 1201 DS Mondol Sir Class 9 Part-2",
         link: "https://www.youtube.com/embed/9_AuLbh3BMU",
     },
     {
         id: 12,
-        title: "CSE 1201 DS Mondol Sir Class 12",
+        title: "CSE 1201 DS Mondol Sir Class 10",
         link: "https://www.youtube.com/embed/D_mg0YEEY4c",
     },
     {
         id: 13,
-        title: "CSE 1201 DS Mondol Sir Class 13",
+        title: "CSE 1201 DS Mondol Sir Class 11",
         link: "https://www.youtube.com/embed/A6X_e_tR96I",
     },
 
@@ -163,47 +163,47 @@ const oopss = [
     },
     {
         id: 3,
-        title: "CSE 1203 Suhrid Sir Class 3",
+        title: "CSE 1203 Suhrid Sir Class 4",
         link: "https://www.youtube.com/embed/8Hr1WzEwO44",
     },
     {
         id: 4,
-        title: "CSE 1204 Lab Suhrid Sir Class 4",
+        title: "CSE 1204 Lab Suhrid Sir Class 5",
         link: "https://www.youtube.com/embed/A9w1wPrvFZ8",
     },
     {
         id: 5,
-        title: "CSE 1204 Lab Suhrid Sir Class 5",
+        title: "CSE 1204 Lab Suhrid Sir Class 6",
         link: "https://www.youtube.com/embed/PLwz7756gEo",
     },
     {
         id: 6,
-        title: "CSE 1204 Lab Suhrid Sir Class 6",
+        title: "CSE 1204 Lab Suhrid Sir Class 7",
         link: "https://www.youtube.com/embed/kf7MmaP2Whw",
     },
     {
         id: 7,
-        title: "CSE 1203 Suhrid Sir Class 7",
+        title: "CSE 1203 Suhrid Sir Class 8",
         link: "https://www.youtube.com/embed/SPVmrku5SG8",
     },
     {
         id: 8,
-        title: "CSE 1203 Suhrid Sir Class 8",
+        title: "CSE 1203 Suhrid Sir Class 9",
         link: "https://www.youtube.com/embed/-Difgrvep18",
     },
     {
         id: 9,
-        title: "CSE 1204 Lab Suhrid Sir Class 9",
+        title: "CSE 1204 Lab Suhrid Sir Class 10",
         link: "https://www.youtube.com/embed/jNXFproZKdM",
     },
     {
         id: 10,
-        title: "CSE 1203 Suhrid Sir Class 10",
+        title: "CSE 1203 Suhrid Sir Class 11",
         link: "https://www.youtube.com/embed/R68FRkDo-cU",
     },
     {
         id: 11,
-        title: "CSE 1203 Suhrid Sir Class 11",
+        title: "CSE 1203 Suhrid Sir Class 12",
         link: "https://www.youtube.com/embed/kapk0gXl_jc",
     },
 
@@ -306,12 +306,12 @@ const oopas = [
     },
     {
         id: 20,
-        title: "CSE 1203 Asif Sir Class 20",
+        title: "CSE 1203 Asif Sir Class 20 Part-1",
         link: "https://www.youtube.com/embed/sjSdQKd4RtI",
     },
     {
         id: 21,
-        title: "CSE 1203 Asif Sir Class 21",
+        title: "CSE 1203 Asif Sir Class 20 Part-2",
         link: "https://www.youtube.com/embed/-7NNl2JQQeg",
     },
 
@@ -476,7 +476,7 @@ const humgs = [
 ];
 const hum = [
     ['Tahmina Mam Classes', humtm],
-    ['Golam Sir Classes', humtm],
+    ['Golam Sir Classes', humgs],
 ]
 // hum array end
 
@@ -574,23 +574,23 @@ function videoplaylistFUNCTION(arr, arrLink) {
         btn.addEventListener("click", function (ee) {
             let id_details = ee.currentTarget.id;
 
-            console.log(id_details );
-            
+            console.log(id_details);
+
 
             let a = parseInt(id_details[0]); console.log(a);
             let b = parseInt(id_details[1]); console.log(b);
             let c = parseInt(id_details[2]); console.log(c);
             let d = parseInt(id_details[3]); console.log(d);
 
-            let id_no="";
-            for(let i=4;i<id_details.length;++i){
-                id_no+=id_details[i];
+            let id_no = "";
+            for (let i = 4; i < id_details.length; ++i) {
+                id_no += id_details[i];
             }
 
             let e = parseInt(id_no); console.log(e);
 
             let xValue = arr[b][c][d][e];
-            
+
             // console.log(xValue);
 
             IFRAME.setAttribute("src", xValue["link"]);
