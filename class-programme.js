@@ -519,23 +519,21 @@ const CNOTABOT = document.getElementById('cnotabot');
 //getting clicking elements by their id
 //class-loader.html page
 const IFRAME = document.getElementById('iframe');
+const VIDEOTITLE = document.getElementById('videotitle');
 const COURSENAME = document.getElementById('coursename');
 const ACCBTN01 = document.getElementById('accbtn01');
 const ACCBTN02 = document.getElementById('accbtn02');
 const ACCBTN01classList = document.querySelector('.accbtn01classlist');
 const ACCBTN02classList = document.querySelector('.accbtn02classlist');
 
-// const VIDEOfPlaylist01 = document.querySelector('videoFromPlaylist01');
-// const VIDEOfPlaylist02 = document.querySelector('videoFromPlaylist02');
+const SingleVIDEO = document.querySelectorAll('.videoFromPlaylist');
 
-const SingleVIDEO = document.querySelector('.videoFromPlaylist');
-const VIDEOTITLE = document.getElementById('videotitle');
 
 
 const MAIN01 = document.querySelector('.main01');
 const MAIN02 = document.querySelector('.main02');
 
-function videoplaylistFUNCTION(arr,arrLink) {
+function videoplaylistFUNCTION(arr, arrLink) {
 
     let x;
 
@@ -566,10 +564,43 @@ function videoplaylistFUNCTION(arr,arrLink) {
     }
     // console.log(dm2);
     ACCBTN02classList.innerHTML = dm2;
+
+
+    //event listener
+
+    const xxx = document.querySelectorAll('.videoFromPlaylist'); //console.log(xxx);
+
+    xxx.forEach(function (btn) {
+        btn.addEventListener("click", function (ee) {
+            let id_details = ee.currentTarget.id;
+
+            console.log(id_details );
+            
+
+            let a = parseInt(id_details[0]); console.log(a);
+            let b = parseInt(id_details[1]); console.log(b);
+            let c = parseInt(id_details[2]); console.log(c);
+            let d = parseInt(id_details[3]); console.log(d);
+
+            let id_no="";
+            for(let i=4;i<id_details.length;++i){
+                id_no+=id_details[i];
+            }
+
+            let e = parseInt(id_no); console.log(e);
+
+            let xValue = arr[b][c][d][e];
+            
+            // console.log(xValue);
+
+            IFRAME.setAttribute("src", xValue["link"]);
+            VIDEOTITLE.innerHTML = xValue["title"];
+
+        });
+    });
+
+
 }
-
-
-
 
 
 
@@ -578,28 +609,26 @@ window.addEventListener("DOMContentLoaded", function () {
 
     DS.addEventListener("click", function () { //ds at index 01
         let v = firstyearevensem[0];
-        videoplaylistFUNCTION(v,0);
+        videoplaylistFUNCTION(v, 0);
+
     });
 
     HUM.addEventListener("click", function () { //ds at index 01
         let v = firstyearevensem[1];
-        videoplaylistFUNCTION(v,1);
+        videoplaylistFUNCTION(v, 1);
     });
 
     OOP.addEventListener("click", function () { //ds at index 01
         let v = firstyearevensem[2];
-        videoplaylistFUNCTION(v,2);
+        videoplaylistFUNCTION(v, 2);
     });
 
     MATH.addEventListener("click", function () { //ds at index 01
         let v = firstyearevensem[3];
-        videoplaylistFUNCTION(v,3);
+        videoplaylistFUNCTION(v, 3);
     });
 
-    //event listener
-    // SingleVIDEO.addEventListener("click", function () {
-    //     console.log("hey");
-    // });
+
 });
 
 

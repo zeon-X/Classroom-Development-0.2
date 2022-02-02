@@ -122,6 +122,7 @@ footer{
 .videoFromPlaylist:hover{
     background-color: black;
     color:green;
+    cursor: pointer;
 }
 
 
